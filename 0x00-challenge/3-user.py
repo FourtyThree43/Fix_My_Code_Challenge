@@ -88,7 +88,7 @@ if __name__ == '__main__':
         print("is_valid_password should return True if it's the right \
 password")
 
-    if not user_1.is_valid_password("Fakepwd"):
+    if user_1.is_valid_password("Fakepwd"):
         print("is_valid_password should return False if it's not the right \
 password")
 

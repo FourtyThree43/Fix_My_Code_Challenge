@@ -13,6 +13,9 @@ int main(void)
 	dlistint_t *head;
 
 	head = NULL;
+	printf("-----------------\n");
+	print_dlistint(head);
+	printf("-----------------\n");
 	add_dnodeint_end(&head, 0);
 	add_dnodeint_end(&head, 1);
 	add_dnodeint_end(&head, 2);
